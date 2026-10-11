@@ -8,7 +8,5 @@ public class Escala {
         this.aeroporto = aeroporto;
         this.embarqueNoTransito = embarqueNoTransito;
     }
-
-
 }
 

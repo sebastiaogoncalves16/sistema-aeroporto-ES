@@ -8,7 +8,18 @@ public abstract class Voo {
     private CompanhiaAerea companhia;
     private Aeronave aeronave;
 
+    public Voo(String numeroVoo, String destino, LocalTime horaPartida,
+               String portaEmbarque, CompanhiaAerea companhia, Aeronave aeronave) {
+        this.numeroVoo = numeroVoo;
+        this.destino = destino;
+        this.horaPartida = horaPartida;
+        this.portaEmbarque = portaEmbarque;
+        this.companhia = companhia;
+        this.aeronave = aeronave;
+    }
+
+
     public double calcularCusto() {
-        return 0;
+        return companhia.getCustoPorCliente() * (1 + companhia.getTaxaLucro());
     }
 }

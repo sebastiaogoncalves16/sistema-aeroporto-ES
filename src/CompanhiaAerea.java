@@ -4,7 +4,7 @@ import java.util.List;
 public class CompanhiaAerea {
     private String nome;
     private double custoPorCliente;
-    private double taxaLucro; // ex.: 0.15 = 15%
+    private double taxaLucro;
     private List<Voo> voos = new ArrayList<>();
 
     public CompanhiaAerea(String nome, double custoPorCliente, double taxaLucro) {

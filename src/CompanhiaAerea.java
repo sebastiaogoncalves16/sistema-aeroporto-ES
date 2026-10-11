@@ -1,3 +1,10 @@
+/**
+ * Trabalho Prático - Engenharia de Software
+ * Grupo composto por:
+ * - Sebastião Gonçalves (nº 71326)
+ * - Gil Alves (nº 68036)
+ */
+
 import java.util.ArrayList;
 import java.util.List;
 
